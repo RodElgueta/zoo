@@ -180,6 +180,7 @@ while True:
         
         if Zooint.animals == []:
             print("porfavor crea un animal o mas para poder alimentar")
+        
         else:
             print(Zooint.see_animals())
             animalfeed = input("cual de sus animales desea alimentar? ingrese su nombre:\n")
@@ -197,6 +198,7 @@ while True:
         
         if Zooint.animals == []:
             print("porfavor crea un animal o mas")
+        
         else:
             print(Zooint.see_animals())
             activity = input("con que animal deseas tener una actividad, ingresa su nombre:\n")
